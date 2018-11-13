@@ -18,3 +18,8 @@ Plugin for retrieving and visualizing data from the NCEP
     In the left input "PathToFile" connect a panel with the path to a grib2 file (Trick: on Windows click one time your file, then press    Shift and Right-Click, now you should see "Copy as path"), note: the path shouldn't have any double quotes.
     You should see something like this:
     ![ghwsplugin](https://user-images.githubusercontent.com/21000020/48441067-95226e00-e758-11e8-9ba3-fdc1668bedfa.JPG)
+
+# Sample Definition:
+In this repository there is a GH file: THR34D5.gh
+
+It relies on only two plugins: THR34D5Workshop that is in this repository with its installation guide. And Tarsier that you can get from Food4Rhino: https://www.food4rhino.com/app/tarsier
