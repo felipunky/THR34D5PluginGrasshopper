@@ -65,7 +65,7 @@ The first remap gets our data for a colour gradient and the second for our heigh
 ![thr34d5four](https://user-images.githubusercontent.com/21000020/48445668-1bdd4800-e765-11e8-8b54-429f7b25fc31.JPG)
 
 We use the Tarsier plugin to create a point-cloud, the point-cloud data structure is based on a kd-tree https://en.wikipedia.org/wiki/K-d_tree so it's faster than the built-in 3D Point structure that Grasshopper offers and it also allows us to add colour to the points.
-![thr34d5six](https://user-images.githubusercontent.com/21000020/48445926-d66d4a80-e765-11e8-98d4-5575a83fccfc.JPG)
+![thr34d5five](https://user-images.githubusercontent.com/21000020/48445927-d66d4a80-e765-11e8-947c-f94b035c4a6d.JPG)
 
 We also translate the points from one of the projections in the Z-Vector so that we can create an interesting Heightmap.
-![thr34d5five](https://user-images.githubusercontent.com/21000020/48445927-d66d4a80-e765-11e8-947c-f94b035c4a6d.JPG)
+![thr34d5six](https://user-images.githubusercontent.com/21000020/48445926-d66d4a80-e765-11e8-98d4-5575a83fccfc.JPG)
