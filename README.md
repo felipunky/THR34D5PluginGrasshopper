@@ -2,9 +2,9 @@
 Plugin for retrieving and visualizing data from the NCEP
 
 # Install:
-1.) Download the files as a zip to your computer, unzip it.
+1.) Download the files in this repository as a zip to your computer, unzip it.
 
-2.) Select all the files that end with a dll and copy them. 
+2.) Select all the unzipped files that end with a .dll and copy them. 
 
 3.) Go to the location where Rhino.exe is, it should be on C:\Program Files\Rhinoceros 5.0 (64-bit)\System
 
