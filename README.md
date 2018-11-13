@@ -28,12 +28,25 @@ The grib files gives us information so that we can reconstruct a grid of coordin
 
 An overview of the GH definition:
 
-1.) The THR34D5Workshop plugin has two sub-folder:
-    -Extract Data:
-        The coordinates in latitudes and longitudes are all the same for the whole file, so we don't need to specify a band for the   "Calculate coordinates from file component". We only need a path, please no double quotes or it won't work.
-        We can use the "Get variable names from file", with the same path as our previous step, to understand what info is contained in each band.
-    ![thr34d5one](https://user-images.githubusercontent.com/21000020/48444250-65c42f00-e761-11e8-9124-26fe8e15265b.JPG)
+1.) The THR34D5Workshop plugin has two sub-folders:
+
+-Extract Data:
+
+The coordinates in latitudes and longitudes are all the same for the whole file, so we don't need to specify a band for the "Calculate coordinates from file component". We only need a path, please no double quotes or it won't work.
+
+We can use the "Get variable names from file", with the same path as our previous step, to understand what info is contained in each of the bands.
+
+The last component is called "Read information from grib file", it needs the path as the last two components and the band, we can pick the band from our "Get variable names from file".
+![thr34d5one](https://user-images.githubusercontent.com/21000020/48444250-65c42f00-e761-11e8-9124-26fe8e15265b.JPG)
     
-   -Projections: 
-    
-   ![thr34d5two](https://user-images.githubusercontent.com/21000020/48444249-65c42f00-e761-11e8-8d16-0f33ef62516c.JPG)
+-Projections: 
+We have three projections:
+
+-WebMercator
+
+-Cassini
+
+-Spherical
+
+Their inputs are the latitudes and longitudes from the "Calculate coordinates from file component".
+![thr34d5two](https://user-images.githubusercontent.com/21000020/48444249-65c42f00-e761-11e8-8d16-0f33ef62516c.JPG)
