@@ -33,6 +33,4 @@ An overview of the GH definition:
         The coordinates in latitudes and longitudes are all the same for the whole file, so we don't need to specify a band for the   "Calculate coordinates from file component". We only need a path, please no double quotes or it won't work.
         We can use the "Get variable names from file", with the same path as our previous step, to understand what info is contained in each band.
     ![thr34d5one](https://user-images.githubusercontent.com/21000020/48444250-65c42f00-e761-11e8-9124-26fe8e15265b.JPG)
-    
-    -Projections:
     ![thr34d5two](https://user-images.githubusercontent.com/21000020/48444249-65c42f00-e761-11e8-8d16-0f33ef62516c.JPG)
