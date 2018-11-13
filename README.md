@@ -54,5 +54,8 @@ Their inputs are the latitudes and longitudes from the "Calculate coordinates fr
 ![thr34d5two](https://user-images.githubusercontent.com/21000020/48444249-65c42f00-e761-11e8-8d16-0f33ef62516c.JPG)
 
 2.) Remap our data set values:
+
 For our visualization purposes we need to remap our values from the "Read information from grib file" "DataSet" output:
+
+The first remap gets our data for a colour gradient and the second for our heightmap, so the target domains are different.
 ![thr34d5three](https://user-images.githubusercontent.com/21000020/48445373-6b6f4400-e764-11e8-894e-ee79c6a7569a.JPG)
