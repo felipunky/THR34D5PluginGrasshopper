@@ -28,7 +28,8 @@ The grib files give us information so that we can reconstruct a grid of coordina
 
 An overview of the GH definition:
 
-1.) The THR34D5Workshop plugin has two sub-folders:
+1.) Extract and project data:
+The THR34D5Workshop plugin has two sub-folders:
 
 -Extract Data:
 
@@ -40,6 +41,7 @@ The last component is called "Read information from grib file", it needs the pat
 ![thr34d5one](https://user-images.githubusercontent.com/21000020/48444250-65c42f00-e761-11e8-9124-26fe8e15265b.JPG)
     
 -Projections: 
+
 We have three projections:
 
 -WebMercator
@@ -50,3 +52,7 @@ We have three projections:
 
 Their inputs are the latitudes and longitudes from the "Calculate coordinates from file component".
 ![thr34d5two](https://user-images.githubusercontent.com/21000020/48444249-65c42f00-e761-11e8-8d16-0f33ef62516c.JPG)
+
+2.) Remap our data set values:
+For our visualization purposes we need to remap our values from the "Read information from grib file" "DataSet" output:
+![thr34d5three](https://user-images.githubusercontent.com/21000020/48445373-6b6f4400-e764-11e8-894e-ee79c6a7569a.JPG)
