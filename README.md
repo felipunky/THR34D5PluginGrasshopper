@@ -1,6 +1,11 @@
 # THR34D5PluginGrasshopper
 Plugin for retrieving and visualizing data from the NCEP
 
+# Getting data 
+You can do it manually or through a python script, you can find some info on the topic here:
+
+https://github.com/felipunky/GISPython/blob/master/README.md
+
 # Install:
 1.) Download the files in this repository as a zip to your computer, unzip it.
 
