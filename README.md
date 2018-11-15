@@ -1,5 +1,5 @@
 # THR34D5PluginGrasshopper
-Plugin for retrieving and visualizing data from the NCEP
+Plugin for extracting and visualizing data from the NCEP for Rhinoceros/Grasshopper.
 
 # Getting data 
 You can do it manually or through a python script, you can find some info on the topic here:
