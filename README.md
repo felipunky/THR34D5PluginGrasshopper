@@ -25,6 +25,14 @@ https://github.com/felipunky/GISPython/blob/master/README.md
     ![ghwsplugin](https://user-images.githubusercontent.com/21000020/48441067-95226e00-e758-11e8-9ba3-fdc1668bedfa.JPG)
 
 # Sample Definition:
+
+# Update:
+This image shows the update to the getCoordinates component
+![thr34d5seven](https://user-images.githubusercontent.com/21000020/48651952-23058f80-e9cb-11e8-9377-a7152bd4b847.JPG)
+
+It helps to pin-point a place through a range of coordinates.
+![thr34d5eight](https://user-images.githubusercontent.com/21000020/48651951-23058f80-e9cb-11e8-9c6e-d4e3ba5eaa75.JPG)
+
 In this repository there is a GH file: THR34D5.gh
 
 It relies on only two plugins: THR34D5Workshop that is in this repository with its installation guide. And Tarsier that you can get from Food4Rhino: https://www.food4rhino.com/app/tarsier
